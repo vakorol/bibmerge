@@ -14,11 +14,13 @@ Usage
 -----
     bibmerge.py [-h] [--abbr abbr_file] [bib_file [bib_file ...]]
 
-positional arguments:
+Positional arguments:
+
     bib_file        Input .bib files to merge. If not specified, all .bib
                     files in the current directory will be used.
 
-optional arguments:
+Optional arguments:
+
     -h, --help        show this help message and exit
     --abbr abbr_file  BibText file(s) containing abbreviations to expand in the\
                       output. Multiple '--abbr' arguments may be specified.
